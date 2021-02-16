@@ -9,9 +9,15 @@ go get github.com/beego/beego/v2@v2.0.0
 // orm安装: 
 go get github.com/beego/beego/v2/client/orm
 
+go get github.com/PuerkitoBio/goquery
+
+go get github.com/russross/blackfriday
+
+go get github.com/nfnt/resize
+
 ```
 
-### 2. app.conf
+### 2. 项目模块配置 app.conf
 
 ```go
 appname = hello
@@ -29,7 +35,7 @@ db_w_database=beegos
 #从库
 ```
 
-### 3. sysinit
+### 3. 项目初始化 sysinit
 
 ```go
 // init.go
